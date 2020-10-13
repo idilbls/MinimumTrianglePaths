@@ -30,8 +30,9 @@ int main()
     cout<<"Enter the size of tirangle:";
     cin>>size;
     
+    
     //Numbers are taken from the user.
-    for(int i=0;i<=size;i++)
+    for(int i=0;i<=(size);i++)
     {
     	//A temporary variable is created to use numbers.
     	vector<int> temp;
@@ -53,6 +54,6 @@ int main()
         outFile << endl; 
     } 
 	
-    cout <<"Minimal path is: "<< minTriPath(Tri); 
+    cout <<"\nMinimal path is: "<< minTriPath(Tri); 
     return 0; 
 } 
